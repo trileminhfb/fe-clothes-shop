@@ -1,6 +1,6 @@
 <template>
     <div class="w-full h-[calc(100vh-8rem)] flex justify-center mt-32">
-        <div class="w-[80vw] h-full flex justify-center items-center flex-row ">
+        <div class="w-[80vw] h-full flex justify-center items-center flex-row">
             <div class="flex-1 h-full flex justify-center items-center">
                 <div class="h-[500px] w-[500px] bg-black overflow-hidden">
                     <img :src="itemPath" alt="">
@@ -29,7 +29,10 @@
                     <p class="text-sm">500 available</p>
                 </div>
                 <div class="flex flex-row gap-5 items-center justify-center">
-                    <button class="flex-1 h-12 bg-orange-500 font-bold rounded-full" type="button">Buy</button>
+                    <button class="flex-1 h-12 bg-orange-500 font-bold rounded-full" type="button" @click="goToBuyPage">
+                        Buy
+                    </button>
+
                     <button class="flex-1 h-12 bg-orange-500 font-bold rounded-full" type="button">Add To Cart</button>
                 </div>
             </div>
@@ -44,6 +47,12 @@ export default {
             itemPath: item,
         };
     },
+    methods: {
+        goToBuyPage() {
+            this.$router.push('/buy');
+        },
+    },
 };
+
 </script>
 <style></style>
