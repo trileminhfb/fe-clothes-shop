@@ -72,7 +72,7 @@
                 </div>
                 <p class="uppercase font-extrabold text-3xl italic">chcope shop</p>
             </div>
-            <div class="w-full h-full bg-red-100 flex-1 p-20 text-black">
+            <div class="w-full h-full bg-red-100 flex-1 p-10 text-black">
                 <div class="">
                     <p class="uppercase font-bold">connect with us</p>
                     <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
