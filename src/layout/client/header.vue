@@ -11,13 +11,13 @@
                 <a class="uppercase font-extrabold italic text-6xl text-white" href="/">chcope shop</a>
             </div>
             <div class="flex-1 h-full flex items-center justify-end flex-row gap-5">
-                <div class="rounded-full flex justify-center items-center bg-red-400 w-16 h-16">
+                <a href="/cart" class="rounded-full flex justify-center items-center bg-red-400 w-16 h-16">
                     <svg class="w-12 h-12 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                         height="24" fill="none" viewBox="0 0 24 24">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
                     </svg>
-                </div>
+                </a>
                 <div class="rounded-full flex justify-center items-center bg-white w-16 h-16">
                     <svg class="w-12 h-12 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                         height="24" fill="currentColor" viewBox="0 0 24 24">
