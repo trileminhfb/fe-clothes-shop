@@ -7,56 +7,56 @@
         <div class="mt-5 h-fit w-full flex flex-col justify-center items-center gap-5">
             <div class="uppercase font-extrabold text-lg">Wellcome to shop</div>
             <div class="h-fit w-full grid grid-cols-4 gap-20 place-items-center">
-                <a href="" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
                     <div class="overflow-hidden w-40 h-60 bg-white">
                         <img class="object-cover h-full" :src="itemPath" alt="">
                     </div>
                     <p class="uppercase font-bold">name</p>
                     <p class="">Price</p>
                 </a>
-                <a href="" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
                     <div class="overflow-hidden w-40 h-60 bg-white">
                         <img class="object-cover h-full" :src="itemPath" alt="">
                     </div>
                     <p class="uppercase font-bold">name</p>
                     <p class="">Price</p>
                 </a>
-                <a href="" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
                     <div class="overflow-hidden w-40 h-60 bg-white">
                         <img class="object-cover h-full" :src="itemPath" alt="">
                     </div>
                     <p class="uppercase font-bold">name</p>
                     <p class="">Price</p>
                 </a>
-                <a href="" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
                     <div class="overflow-hidden w-40 h-60 bg-white">
                         <img class="object-cover h-full" :src="itemPath" alt="">
                     </div>
                     <p class="uppercase font-bold">name</p>
                     <p class="">Price</p>
                 </a>
-                <a href="" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
                     <div class="overflow-hidden w-40 h-60 bg-white">
                         <img class="object-cover h-full" :src="itemPath" alt="">
                     </div>
                     <p class="uppercase font-bold">name</p>
                     <p class="">Price</p>
                 </a>
-                <a href="" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
                     <div class="overflow-hidden w-40 h-60 bg-white">
                         <img class="object-cover h-full" :src="itemPath" alt="">
                     </div>
                     <p class="uppercase font-bold">name</p>
                     <p class="">Price</p>
                 </a>
-                <a href="" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
                     <div class="overflow-hidden w-40 h-60 bg-white">
                         <img class="object-cover h-full" :src="itemPath" alt="">
                     </div>
                     <p class="uppercase font-bold">name</p>
                     <p class="">Price</p>
                 </a>
-                <a href="" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
                     <div class="overflow-hidden w-40 h-60 bg-white">
                         <img class="object-cover h-full" :src="itemPath" alt="">
                     </div>

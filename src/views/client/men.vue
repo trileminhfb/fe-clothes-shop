@@ -59,13 +59,67 @@
                     <p class="uppercase font-bold">name</p>
                     <p class="">Price</p>
                 </a>
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                    <div class="overflow-hidden w-40 h-60 bg-white">
+                        <img class="object-cover h-full" :src="itemPath" alt="">
+                    </div>
+                    <p class="uppercase font-bold">name</p>
+                    <p class="">Price</p>
+                </a>
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                    <div class="overflow-hidden w-40 h-60 bg-white">
+                        <img class="object-cover h-full" :src="itemPath" alt="">
+                    </div>
+                    <p class="uppercase font-bold">name</p>
+                    <p class="">Price</p>
+                </a>
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                    <div class="overflow-hidden w-40 h-60 bg-white">
+                        <img class="object-cover h-full" :src="itemPath" alt="">
+                    </div>
+                    <p class="uppercase font-bold">name</p>
+                    <p class="">Price</p>
+                </a>
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                    <div class="overflow-hidden w-40 h-60 bg-white">
+                        <img class="object-cover h-full" :src="itemPath" alt="">
+                    </div>
+                    <p class="uppercase font-bold">name</p>
+                    <p class="">Price</p>
+                </a>
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                    <div class="overflow-hidden w-40 h-60 bg-white">
+                        <img class="object-cover h-full" :src="itemPath" alt="">
+                    </div>
+                    <p class="uppercase font-bold">name</p>
+                    <p class="">Price</p>
+                </a>
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                    <div class="overflow-hidden w-40 h-60 bg-white">
+                        <img class="object-cover h-full" :src="itemPath" alt="">
+                    </div>
+                    <p class="uppercase font-bold">name</p>
+                    <p class="">Price</p>
+                </a>
+                <a href="/clothes" class="w-60 h-80 bg-gray-300 flex flex-col justify-center items-center">
+                    <div class="overflow-hidden w-40 h-60 bg-white">
+                        <img class="object-cover h-full" :src="itemPath" alt="">
+                    </div>
+                    <p class="uppercase font-bold">name</p>
+                    <p class="">Price</p>
+                </a>
             </div>
         </div>
     </div>
 </template>
 <script>
+import item from '@/components/images/item/item.png';
 export default {
-
-}
+    data() {
+        return {
+            itemPath: item,
+        };
+    },
+};
 </script>
 <style></style>

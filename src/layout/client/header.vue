@@ -2,7 +2,7 @@
     <div class="bg-black w-full flex flex-col fixed top-0">
         <div class="h-20 w-full flex flex-row pl-5 pr-5">
             <div class="flex-1 h-full flex items-center justify-start">
-                <a href="" class="overflow-hidden">
+                <a href="/" class="overflow-hidden">
                     <img class="object-cover h-16 rounded-full" :src="logoPath" alt="">
                 </a>
             </div>
