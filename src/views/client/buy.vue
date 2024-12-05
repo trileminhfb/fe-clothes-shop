@@ -1,8 +1,65 @@
 <template>
-    <div class="w-full h-[2000px] flex flex-row justify-center items-center mt-32">
+    <div class="w-full h-fit flex flex-row justify-center items-center mt-32">
         <div class="w-[80vw] h-full flex justify-center items-start flex-row">
-            <div class="flex-[4] h-full flex flex-col text-black pt-4 text-2xl border-black border"></div>
-            <div class="flex-[2] h-fit flex flex-col text-black p-4 text-2xl border-black border">
+            <div class="flex-[4] h-full flex  text-black p-4 text-xl border-black border">
+                <div class="flex flex-col gap-5 w-full">
+                    <div class="flex flex-col gap-2">
+                        <p>Accout</p>
+                        <input class="h-10 w-full border pl-5" disabled type="text" placeholder="Accout">
+                    </div>
+
+                    <div class="flex flex-row gap-5">
+                        <div class="flex-1 flex flex-col">
+                            <p>Full Name</p>
+                            <input class="h-10 w-full border pl-5" type="text" placeholder="Full Name">
+                        </div>
+
+                        <div class="flex-1 flex flex-col">
+                            <p>Phone Number</p>
+                            <input class="h-10 w-full border pl-5" type="text" placeholder="Phone Number">
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <p>Address</p>
+                        <input class="h-10 w-full border pl-5" type="text" placeholder="Address">
+                    </div>
+
+                    <div class="flex flex-row gap-5">
+                        <div class="flex-1 flex flex-col">
+                            <p>City</p>
+                            <select class="p-2 border rounded-lg" v-model="selectedPaymentMethod">
+                                <option value="" disabled selected>--select city--</option>
+                                <option value="1">Đà Nẵng</option>
+                                <option value="2">Hà Nội</option>
+                                <option value="3">Hồ Chí Minh</option>
+                            </select>
+                        </div>
+
+                        <div class="flex-1 flex flex-col">
+                            <p>District</p>
+                            <select class="p-2 border rounded-lg" v-model="selectedPaymentMethod">
+                                <option value="" disabled selected>--select district--</option>
+                                <option value="1">Đà Nẵng</option>
+                                <option value="2">Hà Nội</option>
+                                <option value="3">Hồ Chí Minh</option>
+                            </select>
+                        </div>
+
+                        <div class="flex-1 flex flex-col">
+                            <p>Ward</p>
+                            <select class="p-2 border rounded-lg" v-model="selectedPaymentMethod">
+                                <option value="" disabled selected>--select ward--</option>
+                                <option value="1">Đà Nẵng</option>
+                                <option value="2">Hà Nội</option>
+                                <option value="3">Hồ Chí Minh</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" flex-[2] h-fit flex flex-col text-black p-4 text-2xl border-black border">
                 <div class="flex flex-col gap-2 w-full">
                     <p class="font-semibold">Product</p>
                     <div class="flex flex-row gap-5 h-40 w-full bg-white justify-start items-center p-5">
@@ -14,6 +71,7 @@
                                     <p>x</p>
                                     <p>20</p>
                                 </div>
+
                                 <div class="flex-1 flex flex-row justify-end text-red-500">
                                     <p>200.000</p>
                                     <p class="text-sm">VNĐ</p>
@@ -21,6 +79,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="flex flex-row gap-5 h-40 w-full bg-white justify-start items-center p-5">
                         <img class="object-cover w-28 h-32" :src="itemPath" alt="">
                         <div class="flex flex-col h-full w-full justify-center items-start gap-5 text-lg">
@@ -30,6 +89,7 @@
                                     <p>x</p>
                                     <p>20</p>
                                 </div>
+
                                 <div class="flex-1 flex flex-row justify-end text-red-500">
                                     <p>200.000</p>
                                     <p class="text-sm">VNĐ</p>
@@ -41,11 +101,11 @@
 
                 <div class="flex flex-col gap-5 w-full p-5">
                     <p class="font-semibold">Payment Method</p>
-                    <select class="p-2 border rounded-full" v-model="selectedPaymentMethod">
+                    <select class="p-2 border rounded-lg" v-model="selectedPaymentMethod">
                         <option value="" disabled selected>--select payment method--</option>
-                        <option value="credit_card">Credit Card</option>
-                        <option value="paypal">PayPal</option>
-                        <option value="bank_transfer">Bank Transfer</option>
+                        <option value="1">Credit Card</option>
+                        <option value="2">PayPal</option>
+                        <option value="3">Bank Transfer</option>
                     </select>
                 </div>
 
@@ -59,6 +119,7 @@
                                 <p class="text-sm">VNĐ</p>
                             </div>
                         </div>
+
                         <div class="flex flex-row w-full">
                             <p class="flex-1">Shipping Subtotal</p>
                             <div class="flex flex-row text-red-500">
@@ -66,6 +127,7 @@
                                 <p class="text-sm">VNĐ</p>
                             </div>
                         </div>
+
                         <div class="flex flex-row w-full">
                             <p class="flex-1 font-semibold">Total Payment</p>
                             <div class="flex flex-row text-red-500">
@@ -73,8 +135,6 @@
                                 <p class="text-sm">VNĐ</p>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
 
