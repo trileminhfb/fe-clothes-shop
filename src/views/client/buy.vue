@@ -1,8 +1,45 @@
 <template>
-    <div class="w-full h-[2000px] flex flex-row justify-center items-center mt-32">
+    <div class="w-full h-fit flex flex-row justify-center items-center mt-32">
         <div class="w-[80vw] h-full flex justify-center items-start flex-row">
-            <div class="flex-[4] h-full flex flex-col text-black pt-4 text-2xl border-black border"></div>
-            <div class="flex-[2] h-fit flex flex-col text-black p-4 text-2xl border-black border">
+            <div class="flex-[4] h-full flex  text-black p-4 text-xl border-black border">
+                <div class="flex flex-col gap-5 w-full">
+                    <div class="flex flex-col gap-2">
+                        <p>Accout</p>
+                        <input class="h-10 w-full border pl-5" disabled type="text" placeholder="Accout">
+                    </div>
+                    <div class="flex flex-row gap-5">
+                        <div class="flex-1 flex flex-col">
+                            <p>Full Name</p>
+                            <input class="h-10 w-full border pl-5" type="text" placeholder="Full Name">
+                        </div>
+                        <div class="flex-1 flex flex-col">
+                            <p>Phone Number</p>
+                            <input class="h-10 w-full border pl-5" type="text" placeholder="Phone Number">
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-2">
+                        <p>Address</p>
+                        <input class="h-10 w-full border pl-5" type="text" placeholder="Address">
+                    </div>
+
+                    <div class="flex flex-row gap-5">
+                        <div class="flex-1 flex flex-col">
+                            <p>City</p>
+                            <input class="h-10 w-full border pl-5" type="text" placeholder="City">
+                        </div>
+                        <div class="flex-1 flex flex-col">
+                            <p>District</p>
+                            <input class="h-10 w-full border pl-5" type="text" placeholder="District">
+                        </div>
+                        <div class="flex-1 flex flex-col">
+                            <p>Ward</p>
+                            <input class="h-10 w-full border pl-5" type="text" placeholder="Ward">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" flex-[2] h-fit flex flex-col text-black p-4 text-2xl border-black border">
                 <div class="flex flex-col gap-2 w-full">
                     <p class="font-semibold">Product</p>
                     <div class="flex flex-row gap-5 h-40 w-full bg-white justify-start items-center p-5">
