@@ -1,6 +1,6 @@
 <template>
     <div
-        class="w-[30vh] h-full fixed top-0 mt-20 bg-black text-white flex flex-col uppercase text-lg font-bold overflow-y-auto pb-20">
+        class="w-[30vh] h-[calc(100vh-5rem)] fixed top-0 mt-20 bg-black text-white flex flex-col uppercase text-lg font-bold overflow-y-auto ">
         <div class="flex flex-row gap-5 p-5 w-full h-16 items-center flex-1">
             <svg class="w-12 h-12" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                 fill="none" viewBox="0 0 24 24">
